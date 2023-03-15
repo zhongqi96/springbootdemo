@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="${request.contextPath}/css/style.css?v=1.092">
+		<script src="/js/jquery-1.11.3.js"></script>
+	</head>
+	<body>
+		hello world!  ${name!}
+		<#list list as ls>
+			/${ls.bloodName!}
+		</#list>
+	</body>
+</html>
